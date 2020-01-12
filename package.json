@@ -1,0 +1,18 @@
+{
+  "name": "comp2406_a4",
+  "version": "1.0.0",
+  "main": "database-initializer.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "socket.io": "^2.3.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

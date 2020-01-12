@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trivia Game</title>
+  </head>
+
+  <body>
+
+    Players:<br>
+    <div id="playerDiv" style="border: thin solid black">
+    </div>
+
+    <br>
+
+    <!-- our initial buttons, including the dropdown -->
+    <div id= "joinDiv" class = "joinDiv">
+      <form>
+        Enter your name:<br>
+        <input id="nameBox" name="nameBox">
+      </form><br>
+
+      <button id= "joinBtn" class="genBtn">Join Game</button>
+    </div>
+
+    <!-- a div where all of our trivia questions and objects go -->
+    <div id = "triviaDiv" class = "triviaBody">
+    </div>
+
+    <br>
+
+    <!-- footer divider where we keep our bottom-most buttons -->
+    <div id = "footerDiv" class = "footer">
+      <button id = "submitBtn" class="genBtn" style="visibility: hidden;">Submit</button><br><br>
+    </div>
+
+    <!-- footer divider where we keep our bottom-most buttons -->
+    <div id = "chatDiv" class = "chat" style="border: thin solid black; visibility: hidden;">
+      <form>
+        Chat here:<br>
+        <input id="chatBox" name="chatBox"><br>
+        Add whisper name here:<br>
+        <input id="whisperBox" name="whisperBox">
+      </form><br>
+      <button id = "chatBtn" class="chatBtn">Chat</button><br><br>
+    </div>
+
+    <!-- links for external scripts -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="trivia_game.js"></script>
+
+  </body>
+</html>
