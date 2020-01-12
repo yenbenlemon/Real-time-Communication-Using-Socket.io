@@ -49,6 +49,8 @@ Server runs on http://localhost:3000/
 16. All players must be in submitted status to advance
 17. If a player is the last to need to submit and leaves, the game will continue
 
+Try accessing the game through multiple browser instances or tabs to simulate a multiplayer experience. 
+
 ## Additions
 
 ###### 30 Second Timer
