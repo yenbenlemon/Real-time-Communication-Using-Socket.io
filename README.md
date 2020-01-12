@@ -5,7 +5,7 @@ Updated: 1/10/2020
 The following project is the creation of a functional Trivia game that will
 persist as long as there are players within the session.
 
-The point is to use sockets for personal and global communication
+The point is to use socket.io for personal and global communication
 between the server and the clients.
 
 Players that enter an already existing round will be able to participate until
