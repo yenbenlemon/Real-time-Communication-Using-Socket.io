@@ -20,7 +20,7 @@ Project Assets:
 - HTML
 - JSON
 
-Details ===========
+## Instructions
 
 Run "node trivia_server.js" in the cmd prompt while pointing to this folder
 Server runs on http://localhost:3000/
@@ -43,7 +43,7 @@ Server runs on http://localhost:3000/
 16. All players must be in submitted status to advance
 17. If a player is the last to need to submit and leaves, the game will continue
 
-Add-ons ===========
+## Additions
 
 30 Second Timer
   - The player only has 30 seconds per question to answer
