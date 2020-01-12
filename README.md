@@ -22,13 +22,11 @@ player enters. The game will then restart.
 
 ## Instructions
 
-Download the project as a .zip
+- Download the project as a .zip
+- Some browsers may flag the filees due to the javascript. Simply keep the files in order to continue.
+- Run "npm i" in the cmd prompt while pointing to this folder. This will install all the required dependencies.
+- Run "node trivia_server.js"
 
-Some browsers may flag the filees due to the javascript. Simply keep the files in order to continue.
-
-Run "npm i" in the cmd prompt while pointing to this folder. This will install all the required dependencies.
-
-Run "node trivia_server.js"
 Server runs on http://localhost:3000/
 
 1. Load the webpage after starting the server (load a second webpage for player 2)
