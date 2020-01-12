@@ -12,7 +12,7 @@ Players that enter an already existing round will be able to participate until
 the game is over. If all players leave, the game will end until a new
 player enters. The game will then restart.
 
-Project Assets:
+###### Project Assets:
 
 - Node.js
 - XMLHttpRequest
@@ -45,22 +45,22 @@ Server runs on http://localhost:3000/
 
 ## Additions
 
-30 Second Timer
+###### 30 Second Timer
   - The player only has 30 seconds per question to answer
   - If they do not answer, they will on to the next question
   - The game will take this as the player inputting an incorrect answer
   - The player will lose 100 points
 
-Point penalty based on time
+###### Point penalty based on time
   - Player will receive 100 points if answering correct within the first 15 seconds
   - Otherwise players will only receive 50 points until the time limit is reached
 
-Chat integration
+###### Chat integration
   - Chat window integration appears when player joins
   - As many messages as wanted can be shown, there's no limit
   - Player name is displayed beside messages
 
-Whisper integration for chat
+###### Whisper integration for chat
   - If the player adds a whisper name to the chat, only the whispered player will receive it
   - If the whispered player doesn't exist, the message will only be displayed to the sender
   - The player that sends the message will also see the message displayed
