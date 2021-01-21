@@ -4,7 +4,7 @@
   "main": "database-initializer.js",
   "dependencies": {
     "fs": "0.0.1-security",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {},
